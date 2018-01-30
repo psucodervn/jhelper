@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/psucoder/projects/jhelper/library/lib.hpp
+bits/stdc++.h
+-
+
+/Users/psucoder/projects/jhelper/tasks/TaskA.cpp
+bits/stdc++.h
+-
+../library/lib.hpp
+/Users/psucoder/projects/jhelper/library/lib.hpp
+
+/Users/psucoder/projects/jhelper/testrunner/main.cpp
+/Users/psucoder/projects/jhelper/tasks/TaskA.cpp
+-
+iostream
+-
+fstream
+-
+sstream
+-
+string
+-
+vector
+-
+cctype
+-
+ctime
+-
+
